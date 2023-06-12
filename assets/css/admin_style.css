@@ -1,0 +1,74 @@
+:root {
+    --bg: white;
+    --primary: #2596be;
+    --secondary: #ffde17;
+  }
+  
+  @font-face {
+    font-family: "Fredo";
+    src: url(../fonts/Fredo.ttf);
+  }
+
+    body {
+        background-color: #85d0eb;
+        font-family: 'Fredo';
+    }
+    .container {
+        background-color: #2596be;
+        border-radius: 10px;
+        box-shadow: 0 0 128px rgba(0, 0, 0, 0.1),
+            0 32px 64px -48px rgba(0, 0, 0, 0.5);
+        padding: 45px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #f3f3f3;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        color: #f3f3f3;
+        width: 92.5%;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 10px 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    .form-group input:focus {
+        outline: none;
+        border-color: var(--secondary);
+    }
+
+    .error {
+        color: #c0392b;
+        margin-top: 10px;
+    }
+    .btn-login {
+        font-family: 'Fredo';
+        font-size: 15px;
+        background-color: #FFC107;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+    .btn-login:hover {
+        background-color: #F9A825;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+    }
